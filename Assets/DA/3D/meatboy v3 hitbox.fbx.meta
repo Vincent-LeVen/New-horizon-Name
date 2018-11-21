@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 527a0a55cd198ea4b8d35785f5558fb2
+timeCreated: 1519898299
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bras
+    100002: Bras_1
+    100004: Bras_FPS
+    100006: Cap_1
+    100008: Cap_2
+    100010: CINEMA_4D_Editor
+    100012: Corps
+    100014: Cube
+    100016: Face
+    100018: JumpCollider
+    100020: MEATBOY
+    100022: //RootNode
+    100024: Pied
+    100026: Pied_1
+    100028: Pieds
+    100030: Player_Camera
+    100032: Smile
+    100034: Yeux
+    100036: yeux
+    100038: yeux_1
+    400000: Bras
+    400002: Bras_1
+    400004: Bras_FPS
+    400006: Cap_1
+    400008: Cap_2
+    400010: CINEMA_4D_Editor
+    400012: Corps
+    400014: Cube
+    400016: Face
+    400018: JumpCollider
+    400020: MEATBOY
+    400022: //RootNode
+    400024: Pied
+    400026: Pied_1
+    400028: Pieds
+    400030: Player_Camera
+    400032: Smile
+    400034: Yeux
+    400036: yeux
+    400038: yeux_1
+    2000000: CINEMA_4D_Editor
+    2000002: Player_Camera
+    2100000: No Name
+    2300000: Bras
+    2300002: Bras_1
+    2300004: Cap_1
+    2300006: Cap_2
+    2300008: Corps
+    2300010: Cube
+    2300012: JumpCollider
+    2300014: Pied
+    2300016: Pied_1
+    2300018: Smile
+    2300020: yeux
+    2300022: yeux_1
+    3300000: Bras
+    3300002: Bras_1
+    3300004: Cap_1
+    3300006: Cap_2
+    3300008: Corps
+    3300010: Cube
+    3300012: JumpCollider
+    3300014: Pied
+    3300016: Pied_1
+    3300018: Smile
+    3300020: yeux
+    3300022: yeux_1
+    4300000: JumpCollider
+    4300002: Cube
+    4300004: Bras_1
+    4300006: Bras
+    4300008: Corps
+    4300010: Pied_1
+    4300012: Pied
+    4300014: Smile
+    4300016: Cap_1
+    4300018: Cap_2
+    4300020: yeux
+    4300022: yeux_1
+    7400000: CINEMA_4D_Main
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

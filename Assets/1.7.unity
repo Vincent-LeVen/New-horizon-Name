@@ -26728,7 +26728,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh5280
+  m_Name: pb_Mesh5920
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -34108,7 +34108,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 731135752}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a54b34b8f534b7428413f25855b985c, type: 3}
   m_Name: 
@@ -36205,7 +36205,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 883689277}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a54b34b8f534b7428413f25855b985c, type: 3}
   m_Name: 
@@ -89846,6 +89846,26 @@ Prefab:
       propertyPath: m_Name
       value: Cube Rotatif
       objectReference: {fileID: 0}
+    - target: {fileID: 400014, guid: e78334b2ba0107941ab65cf87fa0099d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400014, guid: e78334b2ba0107941ab65cf87fa0099d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400014, guid: e78334b2ba0107941ab65cf87fa0099d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: e78334b2ba0107941ab65cf87fa0099d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: e78334b2ba0107941ab65cf87fa0099d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e78334b2ba0107941ab65cf87fa0099d, type: 3}
   m_IsPrefabAsset: 0
@@ -90582,12 +90602,12 @@ MeshCollider:
   m_GameObject: {fileID: 2124263350}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
   m_SkinWidth: 0.01
-  m_Mesh: {fileID: 920831082}
+  m_Mesh: {fileID: 0}
 --- !u!114 &2124263352
 MonoBehaviour:
   m_ObjectHideFlags: 0

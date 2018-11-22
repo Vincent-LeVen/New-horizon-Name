@@ -9,7 +9,8 @@ public class PlayerMovementRigidbody : MonoBehaviour {
 	public float runSpeed = 30.0f;
 	private float speed;
 	public float jumpForce = 10.0f;
-	public float groundSpeed = 30.0f;
+    public float jumper = 50.0f;
+    public float groundSpeed = 30.0f;
 	public float wallJumpReduction = 10.0f;
 	private Rigidbody rbPlayer;
 
@@ -74,10 +75,10 @@ public class PlayerMovementRigidbody : MonoBehaviour {
 			Vector3 force = new Vector3 (straffe, 0.0f, translation);
 			force = transform.localToWorldMatrix.MultiplyVector (force);
 			rbPlayer.AddForce (force, ForceMode.VelocityChange);
-
 		}
 
-		if ((Input.GetKeyDown ("space") || Input.GetButtonDown ("Fire2")) && onGround) 
+
+        if ((Input.GetKeyDown ("space") || Input.GetButtonDown ("Fire2")) && onGround) 
 		{
 			//rbPlayer.AddForce (Vector3.up * jumpForce, ForceMode.Impulse);
 			rbPlayer.velocity = new Vector3 (rbPlayer.velocity.x, jumpForce, rbPlayer.velocity.z);

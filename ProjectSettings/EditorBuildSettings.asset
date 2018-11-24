@@ -5,6 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene_01.unity
     guid: f7479bbd5b49eb042a7fe6bb1af4b580
+  - enabled: 1
+    path: Assets/1.9 pont added + extra props.unity
+    guid: 1416a46b32543bf42bac5885b0d2b4fb
+  m_configObjects: {}

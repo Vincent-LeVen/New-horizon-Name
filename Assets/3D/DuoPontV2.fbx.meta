@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 908f90a778ea00b4ba1c767593856a4d
+guid: 478e52342bb7c5549b1dd745a6472db8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -11,13 +11,8 @@ ModelImporter:
     100010: Cube_5
     100012: Cube_6
     100014: Cube_7
-    100016: Cube_8
-    100018: Cube_9
-    100020: Extrude
-    100022: Extrude_2
-    100024: Extrude_3
-    100026: Null_1
-    100028: //RootNode
+    100016: //RootNode
+    100018: Extrude
     400000: Cube
     400002: Cube_1
     400004: Cube_2
@@ -26,13 +21,8 @@ ModelImporter:
     400010: Cube_5
     400012: Cube_6
     400014: Cube_7
-    400016: Cube_8
-    400018: Cube_9
-    400020: Extrude
-    400022: Extrude_2
-    400024: Extrude_3
-    400026: Null_1
-    400028: //RootNode
+    400016: //RootNode
+    400018: Extrude
     2100000: No Name
     2300000: Cube
     2300002: Cube_1
@@ -42,10 +32,7 @@ ModelImporter:
     2300010: Cube_5
     2300012: Cube_6
     2300014: Cube_7
-    2300016: Cube_8
-    2300018: Cube_9
-    2300020: Extrude_2
-    2300022: Extrude_3
+    2300016: Extrude
     3300000: Cube
     3300002: Cube_1
     3300004: Cube_2
@@ -54,22 +41,17 @@ ModelImporter:
     3300010: Cube_5
     3300012: Cube_6
     3300014: Cube_7
-    3300016: Cube_8
-    3300018: Cube_9
-    3300020: Extrude_2
-    3300022: Extrude_3
-    4300000: Cube_7
+    3300016: Extrude
+    4300000: Extrude
     4300002: Cube_6
     4300004: Cube_5
     4300006: Cube_4
-    4300008: Cube
-    4300010: Cube_1
-    4300012: Cube_2
-    4300014: Cube_3
-    4300016: Cube_8
-    4300018: Cube_9
-    4300020: Extrude_2
-    4300022: Extrude_3
+    4300008: Cube_3
+    4300010: Cube_2
+    4300012: Cube_1
+    4300014: Cube
+    4300016: Cube_7
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1

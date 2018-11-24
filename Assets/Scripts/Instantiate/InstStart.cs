@@ -8,12 +8,15 @@ public class InstStart : MonoBehaviour {
     
 	
 	// Update is called once per frame
-	void Update () {
+	private void OnTriggerEnter(Collider other)
+    {
 
-        if(Input.GetMouseButton(0))
-        {
-            Instantiate (blockStart, transform.position, transform.rotation);
-        }
-		
+        //if Collider...
+        gameObject.SetActive(true);
+            if (Input.GetKeyDown (KeyCode.A))
+            {
+                Instantiate (blockStart, transform.position, transform.rotation);
+            }
+        
 	}
 }

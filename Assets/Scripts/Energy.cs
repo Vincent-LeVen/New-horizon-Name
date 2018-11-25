@@ -14,7 +14,7 @@ public class Energy : MonoBehaviour {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		Debug.Log ("start : " + startRotation);
+		//Debug.Log ("start : " + startRotation);
 		actualRotation += rotateSpeed;
 		transform.rotation = Quaternion.Euler(startRotation.x, actualRotation, startRotation.z);
 	}

@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InstStart2 : MonoBehaviour {
-
-    public GameObject blockStart;
-    public GameObject baseBlockStart;
+public class InstStart2 : MonoBehaviour
+{
+    public GameObject baseBlock;
+    public GameObject blockText;
 
     // Use this for initialization
     void Start () {
-        blockStart.SetActive(false);
-        baseBlockStart.SetActive(true);
+        baseBlock.SetActive(true);
+        blockText.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -18,8 +18,8 @@ public class InstStart2 : MonoBehaviour {
     {
         if (player.gameObject.tag == "Player")
         {
-            blockStart.SetActive(true);
-            baseBlockStart.SetActive(false);
+            baseBlock.SetActive(false);
+            blockText.SetActive(true);
             Debug.Log("entering");
         }
     }
@@ -28,17 +28,9 @@ public class InstStart2 : MonoBehaviour {
     {
         if (player.gameObject.tag == "Player")
         {
-            blockStart.SetActive(false);
-            baseBlockStart.SetActive(true);
+            baseBlock.SetActive(true);
+            blockText.SetActive(false);
             Debug.Log("exiting");
         }
     }
-
-    /*void OnTriggerExit (Collider player)
-    {
-        if (player.gameObject.tag == "Player")
-        {
-            blockStart.SetActive(false);
-        }
-    }*/
 }

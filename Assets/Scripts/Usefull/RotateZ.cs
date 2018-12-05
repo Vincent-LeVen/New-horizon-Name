@@ -17,7 +17,6 @@ public class RotateZ : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log("start : " + startRotation);
         actualRotation += rotateSpeed;
         transform.rotation = Quaternion.Euler(actualRotation, startRotation.y, startRotation.z);
     }

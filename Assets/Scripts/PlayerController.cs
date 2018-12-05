@@ -160,12 +160,12 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetKey (KeyCode.LeftShift)) 
 		{
 			speed = runSpeed;
-			timeBetweenSteps = 0.12f;
+			timeBetweenSteps = 0.25f;
 		} 
 		else 
 		{
 			speed = walkSpeed;
-			timeBetweenSteps = 0.15f;
+			timeBetweenSteps = 0.45f;
 		}
 	}
 
@@ -247,11 +247,11 @@ public class PlayerController : MonoBehaviour {
 			{
 				int soundChoice = Random.Range (1, 4);
 				if (soundChoice == 1) {
-					source.PlayOneShot (walkSound, Random.Range(0.15f, 0.25f));
+					source.PlayOneShot (walkSound, Random.Range(0.10f, 0.25f));
 				} else if (soundChoice == 2) {
-					source.PlayOneShot (walkSound2, Random.Range(0.15f, 0.25f));
+					source.PlayOneShot (walkSound2, Random.Range(0.10f, 0.25f));
 				} else {
-					source.PlayOneShot (walkSound3, Random.Range(0.15f, 0.25f));
+					source.PlayOneShot (walkSound3, Random.Range(0.10f, 0.25f));
 				}
 				walksoundPlayed = Time.time;
 			}

@@ -18,9 +18,12 @@ EditorBuildSettings:
     path: Assets/Old Save/4.2 Tower moved.unity
     guid: fe7620e64d4ddfd4db88e62893cecedb
   - enabled: 0
-    path: Assets/5.3 pillier done & tweaks.unity
+    path: Assets/Old Save/5.3 pillier done & tweaks.unity
     guid: 9b854e0e9919adc408c9eadccb2ab0ae
-  - enabled: 1
-    path: Assets/5.7 Global polish before trying GI.unity
+  - enabled: 0
+    path: Assets/Old Save/5.7 Global polish before trying GI.unity
     guid: 2236e8c0f28979a4198e12cba51c77e5
+  - enabled: 1
+    path: Assets/6.1 major tweaks hitbox.unity
+    guid: 694b3ff039cc0394697355afc0276eab
   m_configObjects: {}

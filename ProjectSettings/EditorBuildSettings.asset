@@ -23,7 +23,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Old Save/5.7 Global polish before trying GI.unity
     guid: 2236e8c0f28979a4198e12cba51c77e5
-  - enabled: 1
+  - enabled: 0
     path: Assets/6.1 major tweaks hitbox.unity
     guid: 694b3ff039cc0394697355afc0276eab
+  - enabled: 1
+    path: Assets/7.0 The end 1.unity
+    guid: d369c7d8c78e7654e8cb48a81573a616
   m_configObjects: {}
